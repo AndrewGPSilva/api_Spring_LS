@@ -1,0 +1,2 @@
+ALTER TABLE livros
+MODIFY COLUMN descricao VARCHAR(255);
