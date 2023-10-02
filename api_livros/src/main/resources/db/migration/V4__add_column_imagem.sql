@@ -1,0 +1,2 @@
+ALTER TABLE livros
+ADD imagem VARCHAR(150);

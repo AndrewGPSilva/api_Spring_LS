@@ -58,9 +58,10 @@ public class LivroController {
             livro.setNome(livroAtualizado.getNome());
             livro.setDescricao(livroAtualizado.getDescricao());
             livro.setAutor(livroAtualizado.getAutor());
+            livro.setImagem(livroAtualizado.getImagem());
     
             livroRepository.save(livro);
-    
+            
             return livro;
         } else {
             return null;
